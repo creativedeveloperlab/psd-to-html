@@ -1,0 +1,37 @@
+/* tablet layout  */
+
+@media only screen and (min-width:768px) and (max-width:991px){
+.content{width: 98%;max-width: 100%;}
+.wellcome_area .inner_wellcome .left_wellcome{width: 96%;}
+.wellcome_area .inner_wellcome .right_wellcome{width: 100%;margin-bottom: -10px;}
+.wellcome_area {padding: 0;}.wellcome_area .inner_wellcome .right_wellcome img{width: 100%;height: auto;}
+.service_area .child_service {width: 366px;padding: 10px 51px 78px 98px;}
+.service_area .child_service h3 {font-size: 80px;padding-top: 15px;}
+}
+
+/* Mobile layout */
+
+@media only screen and (min-width:250px) and (max-width:767px){
+.content{width: 98%;}
+.top_header_area .social_area {width: 80%;margin: 0 auto;float: none;}
+.top_header_area .search_area {display: none;}
+.top_header_area .social_area ul {text-align: center;float: none;}
+.top_header_area .social_area ul li {
+    
+}
+.logo_area .logo{margin: 0 auto;width: 50%;}
+.wellcome_area {padding:0;}.service_area {padding: 30px 0;}.service_area .main_service {width: 100%;padding-top: 0px;}
+.service_area .child_service {width: auto;padding: 40px 0px;text-align: center;font-size: 10px;}
+.service_area .inner_service h2.title {font-size: 35px; padding: 0}
+.service_area .inner_service p.sub_title {margin-bottom: 18px;font-size: 15px;}
+.wellcome_area .left_wellcome {width: 100%;padding: 0px}.wellcome_area .left_wellcome .res_btn{text-align: center;} .wellcome_area .left_wellcome h3 {padding-bottom: 15px;text-align: center;}
+.wellcome_area .right_wellcome {width: 100%;margin-bottom:-10px;}.wellcome_area .right_wellcome {width: 100%;margin-bottom: -10px;}.wellcome_area .right_wellcome img {margin-top: 9px;}
+.wellcome_area .left_wellcome a {
+ padding: 14px 40px;
+}.contact_area {padding: 20px 0;}.contact_area .inner_contact h2.title {font-size: 30px;padding-bottom: 25px;}
+.contact_area .inner_contact .main_contact_area input {width: 45%;padding: 5px 3%;margin: 0 1% 1%;font-size: 15px;}
+.contact_area .inner_contact .main_contact_area textarea {width: 93%; min-height: 68px;margin: 7px 0px 0px 0%;padding: 2px 2%; font-size: 16px;
+}.footer_area .logo2 img {
+    height: 150px;
+}
+}

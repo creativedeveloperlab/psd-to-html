@@ -1,0 +1,116 @@
+/*
+ BASIC SET UP 
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: 'Myriad Pro',sans-serif;color: #333333;line-height: 1.5em;
+}
+
+.content{
+    width: 1170px;margin: 0 auto;
+}
+
+ul,li,a{list-style-type: none;text-decoration: none;list-style: none;color: #fff;
+}
+p{font-weight: 400;}
+h1,h2,h3,h4,h5,h6{
+    font-weight: 700;
+}
+img{max-width: 100%;height: auto;}
+
+/* 
+Top Header Area
+*/
+.top_header_area{background: #a88c95;padding: 18px 0;overflow: hidden;}
+.top_header_area .inner_header{overflow: hidden;}
+.top_header_area .social_area{float: left;width: 50%;}
+.top_header_area .social_area ul{float: left;text-aling:center;}
+.top_header_area .social_area ul li{display:inline-block;background-color: #d2d2d2;border-radius: 50%;}
+.top_header_area .social_area ul li a{display: block;color:#6a3144;height: 35px;width: 35px;border-radius: 50%;text-align: center;padding-top: 8px;padding-left: 3px;}
+.top_header_area .social_area ul li a:hover{background: #6a3144;color: #d2d2d2;transition: .5s;}
+.top_header_area .search_area{float: right;width: 50%;}
+.top_header_area .search_area form{float: right;display: block;width: 300px;}
+.top_header_area .search_area input[type="text"]{height: 35px;border-radius: 5px 0 0 5px;float: left;padding: 0 10px;}
+.top_header_area .search_area input[type="submit"]{ height: 35px; border-radius: 0 5px 5px 0;background-color:#97455f;transition: .5s; cursor: pointer; font-weight:600;font-size: 16px; padding: 0 10px;float: left;color: #fff;}
+.top_header_area .search_area input[type="submit"]:hover{background-color: #6a3144;}
+
+
+/* 
+Logo area Designe
+*/
+.logo_area{width: 200px;margin: 25px auto;}
+
+/*
+ Menu section 
+ */
+ .main_manu{text-align: center;height: 52px;background: #97455f;}
+ .main_manu ul{text-align: center;margin: 0 auto;}
+ .main_manu ul li{display: inline-block; padding-top:15px;}
+ .main_manu ul li a{text-align: center; font-weight: 600;padding:15px 20px}
+ .main_manu ul li a:hover{background-color: #6a3144;}
+
+ /* banner section  */
+
+ .banner img{
+     padding: 0;margin: 0;outline: 0;width: 100%;
+ }
+
+.bx-wrapper {
+    -moz-box-shadow: 0 0 5px #ccc;
+    -webkit-box-shadow: 0 0 5px #ccc;
+    box-shadow: 0 0 5px #ccc;
+    background: #fff;
+    border: 0;
+}
+/* 
+Wellcome section code start
+*/
+.wellcome_area{padding: 50px 0;width: 100%;background-color: #fff;overflow: hidden;}
+.wellcome_area .left_wellcome{overflow: hidden;width:46%;float: left;padding:0 2%;}
+.wellcome_area .left_wellcome h3{padding-bottom: 30px;}
+.wellcome_area .left_wellcome p{padding-bottom: 30px;font-size: 16px;font-weight: 500;}
+.wellcome_area .left_wellcome a{background: #6a3144;text-align: center;padding: 20px 30px;display: inline-block;border-radius: 5px;}
+.wellcome_area .left_wellcome a:hover{background: #97455f;transition: .5s;}
+.wellcome_area .right_wellcome{float:right;width: 50%;}
+.wellcome_area .right_wellcome img{border-radius: 5px;}
+
+/* 
+Service section code start
+*/
+.service_area{background-color:#f5f5f5 ;padding: 50px 0;overflow: hidden;width: 100%;color: #6a3144;
+}
+.service_area .inner_service{overflow: hidden;}
+.service_area .inner_service h2.title{text-align: center;font-size: 48px;padding: 10px 0;}
+.service_area .inner_service p.sub_title{text-align: center;margin-top: 10px;margin-bottom: 40px;}
+.service_area .main_service{overflow: hidden;width: 100%;padding-top: 40px;}
+.service_area .child_service{width: 380px; padding: 130px 60px 80px 105px;float: left;position: relative;transition: .5s; cursor: pointer;}
+.service_area .main_service .child_service:hover{background: #fff;box-shadow:10px 10px 10px #ddd;}
+.service_area .child_service h3{font-weight: 700;font-size: 100px;opacity: 0.1;}
+.service_area .main_service .child_service p{font-size: 16px;}
+.service_area .main_service .child_service h4{font-size:20px; font-weight: 700; margin-top: 10px;margin-bottom: 10px;}
+.service_area .main_service .child_service a{color: #6a3144;}
+
+/* 
+Contact area code start here
+*/
+.contact_area{background: url(../img/contact.jpg); padding: 80px 0;;background-size: cover;color: #fff;background-color: #14263e}
+.contact_area .inner_contect{overflow: hidden;}
+.contact_area .inner_contact h2.title{text-align: center;font-weight: 700;margin: 0 auto;font-size: 36px;padding-bottom: 60px; }
+.contact_area .inner_contact .main_contact_area {width: 100%;overflow: hidden;text-align: center;}
+.contact_area .inner_contact .main_contact_area input{width: 42%;padding: 15px 3%;margin: 0 1% 2%;border-radius: 5px;font-size: 18px;}
+.contact_area .inner_contact .main_contact_area textarea{width: 87%;min-height: 100px;margin: 0px 0px 0px 0%;border-radius: 5px;padding: 12px 3%;font-size: 18px;font-weight: 600;}
+.contact_area .inner_contact .main_contact_area input[type="submit"]{text-align: center;margin: 20px auto; color: #fff;display: block;width: 250px; border-radius: 25px;background-color: #97455f;border: 0;font-size: 21px;text-transform: uppercase;cursor: pointer;transition: .5s;}
+.contact_area .inner_contact .main_contact_area input[type="submit"]:hover{background-color: #6a3144;}
+
+/* Footer section code  */
+.footer_area{background: #fff;padding: 25px 0; overflow: hidden;}
+.footer_area .logo2{text-align: center;margin: 0 auto;}
+.footer_area .logo2  img{}
